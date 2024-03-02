@@ -9,7 +9,7 @@ import javax.persistence.Id;
 public class Book {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.IDENTITY) //test git commit
 	private int id;
 	private String name;
 	private String author;
